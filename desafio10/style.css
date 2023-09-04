@@ -1,0 +1,119 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Android';
+    src: url('fontes/idroid.otf') format(opentype);
+}
+:root {
+    --color1: #c5ebd6;
+    --color2: #83e1ad;
+    --color3: #3ddc84;
+    --color4: #2fa866;
+    --color5: #1a5c37;
+    --color6: #063d1e;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+aside h1 {
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px;
+    font-size: 1.05em;
+    color: white;
+    background-color: var(--color4);
+    margin: -15px -15px 0px -15px;
+}
+body {
+    background-color: var(--color2);
+}
+header {
+    text-align: center;
+    padding: 10px 10px 5px 10px;
+    background-image: linear-gradient(var(--color3), var(--color4), var(--color5));
+    color: white;
+}
+header p {
+    width: 370px;
+    margin: auto;
+    margin-bottom: 21.44px;
+}
+nav {
+    text-align: left;
+}
+header nav a{
+    padding: 5px 10px 5px 10px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    transition-duration: 0.5s;
+    background-color: var(--color3);
+    border-radius: 5px;
+}
+main {
+    max-width: 800px;
+    min-width: 200px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+}
+main h1, h2 {
+    color: var(--color5);
+    font-family: 'Android';
+}
+main h2 {
+    background-image: linear-gradient(to right, var(--color1), white);
+    padding-left: 10px;
+}
+main p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 2em;
+}
+img {
+    width: 100%;
+}
+#img-pq {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+section {
+    background-color: var(--color5);
+    margin: 0px -20px 0px -20px;
+    padding-bottom: 59%;
+    position: relative;
+}
+iframe {
+    padding: 20px 0px 20px 0px;
+    position: absolute;
+    top: 0%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+aside {
+    border-radius: 10px;
+    margin: 20px 0px;
+    background-color: var(--color2);
+    padding: 15px;
+}
+aside ul {
+    list-style-position: inside;
+    columns: 2;
+}
+footer {
+    font-size: small;
+    text-align: center;
+    background-color: var(--color5);
+    color: var(--color1);
+}
+footer strong {
+    color: white;
+}
+footer p {
+    padding: 5px;
+}
